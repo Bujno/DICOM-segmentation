@@ -23,12 +23,15 @@ The Hounsfield Unit (HU) is a relative quantitative measurement of the intensity
 
 
 ### Requirements
+```
 pip install pydicom
 conda install plotly
 conda install scikit-image
+```
 
 ### Dataset
 https://www.kaggle.com/abhinavvadlamani/lung-cancer-2
 
 ### Issues during implementation
 - https://stackoverflow.com/questions/68736618/error-loading-preloads-could-not-find-renderer
+- https://scikit-image.org/docs/dev/auto_examples/edges/plot_contours.html#sphx-glr-auto-examples-edges-plot-contours-py
